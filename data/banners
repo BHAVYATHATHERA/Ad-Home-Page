@@ -1,0 +1,22 @@
+import { Banner } from '.../app/Banner';
+
+const banners: Banner[] = [
+  {
+    id: 1,
+    title: "Banner 1",
+    description: "Description for Banner 1",
+    cta: "Call to Action 1",
+    image: "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/5/square.png",
+    background: "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/5/square.png"
+  },
+  {
+    id: 2,
+    title: "Banner 2",
+    description: "Description for Banner 2",
+    cta: "Call to Action 2",
+    image: "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/9/square.png",
+    background: "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/9/square.png"
+  }
+];
+
+export default banners;
